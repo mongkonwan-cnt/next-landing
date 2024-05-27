@@ -54,7 +54,7 @@ export default function MainPage() {
               <div className="inline-block rounded-lg bg-gray-100 px-3 py-1 text-sm dark:bg-gray-800">
                 <ZapIcon className="h-4 w-4" />
               </div>
-              <h3 className="text-lg font-bold">Infinite scalability</h3>
+              <h1 className="text-lg font-bold">Infinite scalability</h1>
               <p className="text-sm text-gray-500 dark:text-gray-400">
                 Enable code to run on-demand without needing to manage your own infrastructure or upgrade hardware.
               </p>
@@ -63,7 +63,7 @@ export default function MainPage() {
               <div className="inline-block rounded-lg bg-gray-100 px-3 py-1 text-sm dark:bg-gray-800">
                 <PieChartIcon className="h-4 w-4" />
               </div>
-              <h3 className="text-lg font-bold">Real-time insights</h3>
+              <h1 className="text-lg font-bold">Real-time insights</h1>
               <p className="text-sm text-gray-500 dark:text-gray-400">
                 Get granular, first-party, real-user metrics on site performance per deployment.
               </p>
@@ -72,7 +72,7 @@ export default function MainPage() {
               <div className="inline-block rounded-lg bg-gray-100 px-3 py-1 text-sm dark:bg-gray-800">
                 <LayersIcon className="h-4 w-4" />
               </div>
-              <h3 className="text-lg font-bold">Personalization</h3>
+              <h1 className="text-lg font-bold">Personalization</h1>
               <p className="text-sm text-gray-500 dark:text-gray-400">
                 Deliver dynamic, personalized content, while ensuring users only see the best version of your site.
               </p>
