@@ -1,6 +1,271 @@
 import * as React from "react";
 import { IconSvgProps } from "../../types";
 
+export const ArrowUpIcon: React.FC<IconSvgProps> = ({
+  size = 24,
+  width = size,
+  height = size,
+  ...props
+}) => (
+  <svg
+    {...props}
+    xmlns="http://www.w3.org/2000/svg"
+    width={width}
+    height={height}
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+  >
+    <path d="m5 12 7-7 7 7" />
+    <path d="M12 19V5" />
+  </svg>
+);
+
+export const FacebookIcon: React.FC<IconSvgProps> = ({
+  size = 24,
+  width = size,
+  height = size,
+  ...props
+}) => (
+  <svg
+    {...props}
+    xmlns="http://www.w3.org/2000/svg"
+    width={width}
+    height={height}
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+  >
+    <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+  </svg>
+);
+
+export const LinkedinIcon: React.FC<IconSvgProps> = ({
+  size = 24,
+  width = size,
+  height = size,
+  ...props
+}) => (
+  <svg
+    {...props}
+    xmlns="http://www.w3.org/2000/svg"
+    width={width}
+    height={height}
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+  >
+    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+    <rect width="4" height="12" x="2" y="9" />
+    <circle cx="4" cy="4" r="2" />
+  </svg>
+);
+
+export const YoutubeIcon: React.FC<IconSvgProps> = ({
+  size = 24,
+  width = size,
+  height = size,
+  ...props
+}) => (
+  <svg
+    {...props}
+    xmlns="http://www.w3.org/2000/svg"
+    width={width}
+    height={height}
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+  >
+    <path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17" />
+    <path d="m10 15 5-3-5-3z" />
+  </svg>
+);
+
+export const ChevronDownIcon: React.FC<IconSvgProps> = ({
+  size = 24,
+  width = size,
+  height = size,
+  ...props
+}) => (
+  <svg
+    {...props}
+    xmlns="http://www.w3.org/2000/svg"
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+  >
+    <path d="m6 9 6 6 6-6" />
+  </svg>
+);
+
+export const BotIcon: React.FC<IconSvgProps> = ({
+  size = 24,
+  width = size,
+  height = size,
+  ...props
+}) => (
+  <svg
+    {...props}
+    xmlns="http://www.w3.org/2000/svg"
+    width={width}
+    height={height}
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+  >
+    <path d="M12 8V4H8" />
+    <rect width="16" height="12" x="4" y="8" rx="2" />
+    <path d="M2 14h2" />
+    <path d="M20 14h2" />
+    <path d="M15 13v2" />
+    <path d="M9 13v2" />
+  </svg>
+);
+
+export const CombineIcon: React.FC<IconSvgProps> = ({
+  size = 24,
+  width = size,
+  height = size,
+  ...props
+}) => (
+  <svg
+    {...props}
+    xmlns="http://www.w3.org/2000/svg"
+    width={width}
+    height={height}
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+  >
+    <rect width="8" height="8" x="2" y="2" rx="2" />
+    <path d="M14 2c1.1 0 2 .9 2 2v4c0 1.1-.9 2-2 2" />
+    <path d="M20 2c1.1 0 2 .9 2 2v4c0 1.1-.9 2-2 2" />
+    <path d="M10 18H5c-1.7 0-3-1.3-3-3v-1" />
+    <polyline points="7 21 10 18 7 15" />
+    <rect width="8" height="8" x="14" y="14" rx="2" />
+  </svg>
+);
+
+export const ComponentIcon: React.FC<IconSvgProps> = ({
+  size = 24,
+  width = size,
+  height = size,
+  ...props
+}) => (
+  <svg
+    {...props}
+    xmlns="http://www.w3.org/2000/svg"
+    width={width}
+    height={height}
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+  >
+    <path d="M5.5 8.5 9 12l-3.5 3.5L2 12l3.5-3.5Z" />
+    <path d="m12 2 3.5 3.5L12 9 8.5 5.5 12 2Z" />
+    <path d="M18.5 8.5 22 12l-3.5 3.5L15 12l3.5-3.5Z" />
+    <path d="m12 15 3.5 3.5L12 22l-3.5-3.5L12 15Z" />
+  </svg>
+);
+
+export const InfoIcon: React.FC<IconSvgProps> = ({
+  size = 24,
+  width = size,
+  height = size,
+  ...props
+}) => (
+  <svg
+    {...props}
+    xmlns="http://www.w3.org/2000/svg"
+    width={width}
+    height={height}
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+  >
+    <circle cx="12" cy="12" r="10" />
+    <path d="M12 16v-4" />
+    <path d="M12 8h.01" />
+  </svg>
+);
+
+export const LockIcon: React.FC<IconSvgProps> = ({
+  size = 24,
+  width = size,
+  height = size,
+  ...props
+}) => (
+  <svg
+    {...props}
+    xmlns="http://www.w3.org/2000/svg"
+    width={width}
+    height={height}
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+  >
+    <rect width="18" height="11" x="3" y="11" rx="2" ry="2" />
+    <path d="M7 11V7a5 5 0 0 1 10 0v4" />
+  </svg>
+);
+
+export const ScalingIcon: React.FC<IconSvgProps> = ({
+  size = 24,
+  width = size,
+  height = size,
+  ...props
+}) => (
+  <svg
+    {...props}
+    xmlns="http://www.w3.org/2000/svg"
+    width={width}
+    height={height}
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+  >
+    <path d="M12 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7" />
+    <path d="M14 15H9v-5" />
+    <path d="M16 3h5v5" />
+    <path d="M21 3 9 15" />
+  </svg>
+);
+
 export const PowerIcon: React.FC<IconSvgProps> = ({
   size = 36,
   width,
