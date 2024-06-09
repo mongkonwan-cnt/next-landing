@@ -1,6 +1,7 @@
 import { Carousel, CarouselContent, CarouselItem, CarouselPrevious, CarouselNext } from "@/components/ui/carousel"
+import Image from 'next/image';
 
-export default function Component() {
+export default function SocialProof() {
   return (
     <section className="w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800">
       <div className="container grid items-center justify-center gap-12 px-4 md:px-6">
@@ -13,84 +14,100 @@ export default function Component() {
           </div>
           <div className="grid grid-cols-2 gap-6 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
             <div className="flex items-center justify-center">
-              <img
-                src="/placeholder.svg"
-                width="100"
-                height="50"
-                alt="Logo"
-                className="aspect-[2/1] overflow-hidden rounded-lg object-contain object-center"
-              />
+              <div className="aspect-square overflow-hidden rounded-lg object-contain object-center">
+                <Image
+                  src="/placeholder.svg"
+                  alt="Logo"
+                  width={100}
+                  height={100}
+                  layout="intrinsic"
+                />
+              </div>
             </div>
             <div className="flex items-center justify-center">
-              <img
-                src="/placeholder.svg"
-                width="100"
-                height="50"
-                alt="Logo"
-                className="aspect-[2/1] overflow-hidden rounded-lg object-contain object-center"
-              />
+              <div className="aspect-square overflow-hidden rounded-lg object-contain object-center">
+                <Image
+                  src="/placeholder.svg"
+                  alt="Logo"
+                  width={100}
+                  height={100}
+                  layout="intrinsic"
+                />
+              </div>
             </div>
             <div className="flex items-center justify-center">
-              <img
-                src="/placeholder.svg"
-                width="100"
-                height="50"
-                alt="Logo"
-                className="aspect-[2/1] overflow-hidden rounded-lg object-contain object-center"
-              />
+              <div className="aspect-square overflow-hidden rounded-lg object-contain object-center">
+                <Image
+                  src="/placeholder.svg"
+                  alt="Logo"
+                  width={100}
+                  height={100}
+                  layout="intrinsic"
+                />
+              </div>
             </div>
             <div className="flex items-center justify-center">
-              <img
-                src="/placeholder.svg"
-                width="100"
-                height="50"
-                alt="Logo"
-                className="aspect-[2/1] overflow-hidden rounded-lg object-contain object-center"
-              />
+              <div className="aspect-square overflow-hidden rounded-lg object-contain object-center">
+                <Image
+                  src="/placeholder.svg"
+                  alt="Logo"
+                  width={100}
+                  height={100}
+                  layout="intrinsic"
+                />
+              </div>
             </div>
             <div className="flex items-center justify-center">
-              <img
-                src="/placeholder.svg"
-                width="100"
-                height="50"
-                alt="Logo"
-                className="aspect-[2/1] overflow-hidden rounded-lg object-contain object-center"
-              />
+              <div className="aspect-square overflow-hidden rounded-lg object-contain object-center">
+                <Image
+                  src="/placeholder.svg"
+                  alt="Logo"
+                  width={100}
+                  height={100}
+                  layout="intrinsic"
+                />
+              </div>
             </div>
             <div className="flex items-center justify-center">
-              <img
-                src="/placeholder.svg"
-                width="100"
-                height="50"
-                alt="Logo"
-                className="aspect-[2/1] overflow-hidden rounded-lg object-contain object-center"
-              />
+              <div className="aspect-square overflow-hidden rounded-lg object-contain object-center">
+                <Image
+                  src="/placeholder.svg"
+                  alt="Logo"
+                  width={100}
+                  height={100}
+                  layout="intrinsic"
+                />
+              </div>
             </div>
           </div>
         </div>
         <div className="grid gap-12 sm:grid-cols-2 lg:grid-cols-3">
           <div className="grid gap-4">
             <div className="flex items-center gap-4">
-              <img
-                src="/placeholder.svg"
-                width="60"
-                height="60"
-                alt="Award"
-                className="aspect-square overflow-hidden rounded-lg object-contain object-center"
-              />
+              <div className="aspect-square overflow-hidden rounded-lg object-contain object-center">
+                <Image
+                  src="/placeholder.svg"
+                  alt="Award"
+                  width={60}
+                  height={60}
+                  layout="intrinsic" 
+                />
+              </div>
               <div className="grid gap-1">
                 <h3 className="text-lg font-bold">Best SaaS Product</h3>
                 <p className="text-sm text-gray-500 dark:text-gray-400">Awarded by SaaS Awards 2022</p>
               </div>
             </div>
             <div className="flex items-center gap-4">
-              <img
-                src="/placeholder.svg"
-                width="60"
-                height="60"
-                alt="Certificate"
-                className="aspect-square overflow-hidden rounded-lg object-contain object-center"
-              />
+              <div className="aspect-square overflow-hidden rounded-lg object-contain object-center">
+                <Image
+                  src="/placeholder.svg"
+                  alt="Award"
+                  width={60}
+                  height={60}
+                  layout="intrinsic" 
+                />
+              </div>
               <div className="grid gap-1">
                 <h3 className="text-lg font-bold">ISO 9001 Certified</h3>
                 <p className="text-sm text-gray-500 dark:text-gray-400">Quality Management System</p>
@@ -99,26 +116,30 @@ export default function Component() {
           </div>
           <div className="grid gap-4">
             <div className="flex items-center gap-4">
-              <img
-                src="/placeholder.svg"
-                width="60"
-                height="60"
-                alt="Award"
-                className="aspect-square overflow-hidden rounded-lg object-contain object-center"
-              />
+              <div className="aspect-square overflow-hidden rounded-lg object-contain object-center">
+                <Image
+                  src="/placeholder.svg"
+                  alt="Award"
+                  width={60}
+                  height={60}
+                  layout="intrinsic" 
+                />
+              </div>
               <div className="grid gap-1">
                 <h3 className="text-lg font-bold">Fastest Growing SaaS</h3>
                 <p className="text-sm text-gray-500 dark:text-gray-400">Awarded by SaaS 100 2021</p>
               </div>
             </div>
             <div className="flex items-center gap-4">
-              <img
-                src="/placeholder.svg"
-                width="60"
-                height="60"
-                alt="Certificate"
-                className="aspect-square overflow-hidden rounded-lg object-contain object-center"
-              />
+              <div className="aspect-square overflow-hidden rounded-lg object-contain object-center">
+                <Image
+                  src="/placeholder.svg"
+                  alt="Award"
+                  width={60}
+                  height={60}
+                  layout="intrinsic" 
+                />
+              </div>
               <div className="grid gap-1">
                 <h3 className="text-lg font-bold">GDPR Compliant</h3>
                 <p className="text-sm text-gray-500 dark:text-gray-400">Data Privacy Certification</p>
@@ -127,26 +148,30 @@ export default function Component() {
           </div>
           <div className="grid gap-4">
             <div className="flex items-center gap-4">
-              <img
-                src="/placeholder.svg"
-                width="60"
-                height="60"
-                alt="Award"
-                className="aspect-square overflow-hidden rounded-lg object-contain object-center"
-              />
+              <div className="aspect-square overflow-hidden rounded-lg object-contain object-center">
+                <Image
+                  src="/placeholder.svg"
+                  alt="Award"
+                  width={60}
+                  height={60}
+                  layout="intrinsic" 
+                />
+              </div>
               <div className="grid gap-1">
                 <h3 className="text-lg font-bold">Best Customer Support</h3>
                 <p className="text-sm text-gray-500 dark:text-gray-400">Awarded by SaaS Support Awards 2023</p>
               </div>
             </div>
             <div className="flex items-center gap-4">
-              <img
-                src="/placeholder.svg"
-                width="60"
-                height="60"
-                alt="Certificate"
-                className="aspect-square overflow-hidden rounded-lg object-contain object-center"
-              />
+              <div className="aspect-square overflow-hidden rounded-lg object-contain object-center">
+                <Image
+                  src="/placeholder.svg"
+                  alt="Award"
+                  width={60}
+                  height={60}
+                  layout="intrinsic" 
+                />
+              </div>
               <div className="grid gap-1">
                 <h3 className="text-lg font-bold">SOC 2 Type II Certified</h3>
                 <p className="text-sm text-gray-500 dark:text-gray-400">Security and Compliance</p>
@@ -171,7 +196,7 @@ export default function Component() {
             <CarouselItem>
               <div className="flex flex-col items-center gap-6">
                 <blockquote className="text-lg font-semibold leading-snug lg:text-xl lg:leading-normal xl:text-2xl">
-                  &ldquo;I've been using this product for over a year now, and it has been a game-changer for my
+                  &ldquo;I&apos;ve been using this product for over a year now, and it has been a game-changer for my
                   business. The features are top-notch, and the support team is always there to help.&ldquo;
                 </blockquote>
                 <div>
