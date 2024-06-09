@@ -40,8 +40,8 @@ export default function FAQS() {
               <ChevronDownIcon className="h-5 w-5 transition-transform [&[data-state=open]]:rotate-180" />
             </CollapsibleTrigger>
             <CollapsibleContent className="px-6 pb-4 pt-2 text-gray-500 dark:text-gray-400">
-              To cancel your subscription, log into your account and go to the Billing section. There you'll find an
-              option to cancel your plan. We require 30 days' notice to process cancellations.
+              To cancel your subscription, log into your account and go to the Billing section. There you&apos;ll find an
+              option to cancel your plan. We require 30 days&apos; notice to process cancellations.
             </CollapsibleContent>
           </Collapsible>
           <Collapsible className="rounded-lg border border-gray-200 bg-white shadow-sm dark:border-gray-800 dark:bg-gray-950">
